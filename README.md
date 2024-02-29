@@ -8,5 +8,5 @@
 ### Responsividade
 > Esta pagina possui responsividade para mudar de aparência de desktop para tablet quando a tela atingir menos que 768px de largura e para mobile ao atingir menos que 375px.
 
->>>>> Esta pagina foi desenvolvida por Willian Ormundo
+>>>>> Esta pagina foi desenvolvida por Willian Ormundo  
 >Contato: [linkedin](www.linkedin.com/in/willian-ormundo-desenvolvedor)
