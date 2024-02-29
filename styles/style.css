@@ -1,3 +1,9 @@
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --tamanho-fonte: 400;
+    --cor-decoracao: darkblue;
+}
+
 body{
     background-color: #F3F5FC;
     height: 100%;
@@ -33,8 +39,8 @@ body{
 }
 
 .texto_entrada {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 2rem;
     color: #0A3871;
     height: 100%;
@@ -50,8 +56,8 @@ body{
 }
 
 .alerta_texto {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 0.75rem;
 }
 
@@ -62,23 +68,23 @@ body{
 }
 
 .bt_criptografar{
-    font-family: "inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 1rem;
     color: white;
     border-radius: 1.5rem;
     height: 4.19rem;
     width: 20.5rem;
-    background-color: darkblue;
+    background-color: var(--cor-decoracao);
     cursor: pointer;
 }
 
 .bt_descriptografar {
-    font-family: "inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 1rem;
-    color: darkblue;
-    border: 1px solid darkblue;
+    color: var(--cor-decoracao);
+    border: 1px solid var(--cor-decoracao);
     border-radius: 1.5rem;
     height: 4.19rem;
     width: 20.5rem;
@@ -120,7 +126,7 @@ body{
 .saida_titulo_mostrar {
     display: flex;
     justify-content: center;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
@@ -129,8 +135,8 @@ body{
 .saida_texto_mostrar {
     display: flex;
     justify-content: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 1rem;
     text-align: center; 
 }
@@ -139,8 +145,8 @@ body{
     display: flex;
     display: none;
     color: #495057;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 1.5rem;
     height: 31rem;
     width: 21rem;
@@ -151,13 +157,13 @@ body{
 
 .bt_copiar {
     display: flex;
-    font-family: "inter", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-principal);
+    font-weight: var(--tamanho-fonte);
     font-size: 1rem;
-    color: darkblue;
+    color: var(--cor-decoracao);
     height: 4.19rem;
     width: 21rem;
-    border: 1px solid darkblue;
+    border: 1px solid var(--cor-decoracao);
     border-radius: 1.5rem;
     background-color: lightblue;
     cursor: pointer;
