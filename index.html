@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_tablet.css">
+    <link rel="stylesheet" href="styles/style_mobile.css">
+    <title>Decodificador de texto do Will</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="logotipo">
+            <img src="assents/logo.svg" class="logo">
+        </div>
+
+        <section class="entrada">
+            <textarea class="texto_entrada" id="text_input" placeholder="Digite seu texto"></textarea>
+
+            <div class="alerta">
+                <img src="assents/alerta.jpg" class="alerta_imagem" height="16px">
+                <label for="text_input" class="alerta_texto">Apenas letras minusculas e sem acento</label>
+            </div>
+
+            <div class="botoes">
+                <button onclick="btCriptografar()" class="bt_criptografar">Criptografar</button>
+                <button onclick="btDescriptografar()" class="bt_descriptografar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="saida">
+            <div class="exibir">
+                <img src="assents/lupa.svg" class="saida_img_mostrar">
+                <div class="saida_mostrar">
+                    <h2 class="saida_titulo_mostrar">Nenhuma mensagem encontrada</h2>
+                    <p class="saida_texto_mostrar">Digite um texto que você deseja criptografar ou descriptografar.
+                    </p>
+                </div>
+            </div>
+            <textarea class="texto_saida" id="text_output" disabled></textarea>
+
+            <button onclick="btCopiar()" class="bt_copiar">Copiar</button>
+        </section>
+
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

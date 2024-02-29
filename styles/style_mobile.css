@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+
+    .logotipo{
+        justify-content: left;
+        margin-left: 1rem;
+    }
+
+    .botoes{
+        flex-direction: column;
+    }
+    
+    .bt_criptografar , .bt_descriptografar {
+        width: 100%;
+    }
+
+    .saida_mostrar {
+        width: auto;
+        margin: 0%;
+        padding: 1rem;
+    }
+}

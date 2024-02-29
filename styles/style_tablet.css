@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .logotipo{
+        margin-right: auto;
+        margin-left: 0;
+    
+    }
+
+    .entrada{
+        height: 60vh;
+        width: 85vw;
+        margin-top: 0px;
+        margin-top: 1rem;
+    }
+
+    .saida_img_mostrar{
+        display: none;
+    }
+
+    .saida{
+        width: 85vw;
+        height: auto;
+        margin-top: 0px;
+        box-shadow: 0rem 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.08);
+    }
+
+    .saida_mostrar{
+        padding: 2rem;
+    }
+
+    .texto_saida{
+        height: 17rem;
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .bt_copiar {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+}
